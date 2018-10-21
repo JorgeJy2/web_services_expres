@@ -1,0 +1,17 @@
+{
+    "name": "06_web_server",
+    "version": "1.0.0",
+    "description": "web services en node",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "nodemon": "nodemon  server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jorge jacobo",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4",
+        "hbs": "^4.0.1"
+    }
+}
